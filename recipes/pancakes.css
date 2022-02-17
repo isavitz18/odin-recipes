@@ -10,6 +10,7 @@ body{
     padding: 5px;
 }
 .title-bg{
+    position: relative;
     height: auto;
     width:75%;
     margin: auto;
@@ -17,7 +18,52 @@ body{
     border: 5px solid whitesmoke;
     border-radius: 20px;
 }
+.ingredients{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    width: 60%;
+    background-color: antiquewhite;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+    margin: auto;
+    margin-top: 20px;
 
+}
+.ingredients > h1{
+    font-family: Artemisia;
+    font-size: 2em;
+    width: auto;
+    order: 2;
+    margin-bottom: 0px;
+}
+.i-list{
+    font-family: Artemisia;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    order: 3;
+    padding-top: 5em;
+}
+.i-list > li{
+    padding-bottom: 5px;
+
+}
+.i-info{
+    font-family: Artemisia;
+    list-style: none;
+    padding: 20px;
+    margin: 0;
+    order: 1;
+    align-self: flex-end;
+}
+.i-info > li {
+    padding-left: 15px;
+    padding-bottom: 5px;
+}
 
 
 
@@ -34,5 +80,5 @@ a{
 }
 @font-face {
   font-family:Artemisia ;
-  src: url(resources/GFSArtemisia.otf);
+  src: url(../resources/GFSArtemisia.otf);
 }
