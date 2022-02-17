@@ -1,0 +1,38 @@
+body{
+    background-color: #83ecfa;
+}
+.title{
+    font-family: Avara;
+    text-align: center;
+    font-size: 5em;
+    color: #EDBA22;
+    text-shadow: 5px 5px 10px gray;
+    padding: 5px;
+}
+.title-bg{
+    height: auto;
+    width:75%;
+    margin: auto;
+    background-color: antiquewhite;
+    border: 5px solid whitesmoke;
+    border-radius: 20px;
+}
+
+
+
+
+
+
+
+a{
+    text-decoration: none;
+    color: inherit
+}
+@font-face{
+  font-family: Avara;
+  src: url(../resources/Avara.otf);
+}
+@font-face {
+  font-family:Artemisia ;
+  src: url(resources/GFSArtemisia.otf);
+}

@@ -10,6 +10,7 @@ body{
 
 }
 .img-gal{
+    display: flex;
     border-radius: 50%;
     border-style: solid;
     border-width: 10px;
@@ -19,11 +20,10 @@ body{
 
 .row{
     display: flex;
-    position: relative;
+    justify-content: space-around;
     width: 100%;
 }
 .column{
-    flex: 33.33%;
     position: relative;
     padding: 5px;
 }
@@ -61,6 +61,11 @@ a{
 .column:hover .caption {
     opacity: 1;
   }
+@media screen and (max-width: 400px) {
+    .row, .caption, .caption-text {
+      flex: 100%;
+    }
+}
 @font-face{
     font-family: Avara;
     src: url(resources/Avara.otf);
