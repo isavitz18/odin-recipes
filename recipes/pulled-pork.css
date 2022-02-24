@@ -26,13 +26,6 @@ body{
     border: 5px solid whitesmoke;
     border-radius: 20px;
 }
-#credit{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-decoration: underline;
-}
-
 .ingredients{
     position: relative;
     display: flex;
@@ -72,6 +65,12 @@ body{
     align-items: center;
     font-family: Artemisia;
     font-size: 1.5em;
+}
+#credit{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: underline;
 }
 .ingredients > h1 {
     font-family: Avara;

@@ -17,6 +17,12 @@ body{
 .home{
     padding:40px;
 }
+#credit{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    text-decoration: underline;
+}
 .title-bg{
     position: relative;
     height: auto;
@@ -26,13 +32,6 @@ body{
     border: 5px solid whitesmoke;
     border-radius: 20px;
 }
-#credit{
-    position: absolute;
-    bottom: 0;
-    right: 0;
-    text-decoration: underline;
-}
-
 .ingredients{
     position: relative;
     display: flex;
@@ -82,10 +81,16 @@ body{
     text-align: center;
 }
 #d1{
-    order: 4;
+    order: 6;
 }
 #i1{
     order: 2;
+}
+#i2{
+    order: 3;
+}
+#i3{
+    order: 4;
 }
 .i-list{
     font-family: Artemisia;
@@ -93,11 +98,22 @@ body{
     padding: 0;
     margin: 0;
     order: 3;
-    padding-top: 5em;
+    padding-top: 2em;
+}
+.i-list2{
+    font-family: Artemisia;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    order: 5;
+    padding-top: 2em;
 }
 .i-list > li{
     padding-bottom: 5px;
 
+}
+.i-list2 > li{
+    padding-bottom: 5px;
 }
 .i-info{
     font-family: Artemisia;
@@ -108,11 +124,10 @@ body{
     align-self: flex-end;
 }
 .i-info > li {
-    padding-left: 15px;
     padding-bottom: 5px;
 }
 .directions{
-    order: 5;
+    order: 7;
     padding: 30px;
     font-family: Artemisia;
 }
